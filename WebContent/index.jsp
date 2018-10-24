@@ -8,7 +8,7 @@
 <title>jsp学习</title>
 </head>
 <body>
-
+<h3>jsp基础</h3>
 <ul>
 	<li><a href="./jspGrammar/learnVariableUsage.jsp">变量的引用学习</a></li>
 	<li><a href="./jspGrammar/learnForCyclic.jsp">for循环语法学习</a></li>
@@ -20,6 +20,11 @@
 	<li><a href="./buildInObject/outObject.jsp">内置对象out学习</a></li>
 	<li><a href="./buildInObject/requestObject.jsp?name=yuanhong">内置对象request学习</a></li>
 	<li><a href="./buildInObject/responseObject.jsp">内置对象response学习</a></li>
+</ul>
+<h3>jsp的servlet</h3>
+<ul>
+	<li><a href="/j2eeTest/HelloServlet">显示一个纯粹的servlet页面</a></li>
+	<li><a href="./servletjsp/login.jsp">servlet与jsp实现登录</a></li>
 </ul>
 
 </body>
