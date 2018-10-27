@@ -8,8 +8,8 @@
 </head>
 <body>
 <h3>登录成功</h3>
-uname:<%request.getParameter("uname"); %><br>
-upsd:<%request.getParameter("upsd"); %>
+uname:<%out.println(request.getParameter("uname")); %><br>
+upsd:<%out.println(request.getParameter("upsd")); %>
 
 </body>
 </html>
