@@ -12,6 +12,19 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
 	<servlet-name>LoginServlet</servlet-name>
 	<servlet-class>com.jsp.serverlet.LoginServlet</servlet-class>
 </servlet>
+<servlet>
+	<servlet-name>DoGetServlet</servlet-name>
+	<servlet-class>com.jsp.serverlet.DoGetServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DoPostServlet</servlet-name>
+	<servlet-class>com.jsp.serverlet.DoPostServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DoLoginServlet</servlet-name>
+	<servlet-class>com.jsp.serverlet.DoLoginServlet</servlet-class>
+</servlet>
+
 
 
 
@@ -22,6 +35,18 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
 <servlet-mapping>
 	<servlet-name>LoginServlet</servlet-name>
 	<url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DoGetServlet</servlet-name>
+	<url-pattern>/DoGetServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DoPostServlet</servlet-name>
+	<url-pattern>/DoPostServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DoLoginServlet</servlet-name>
+	<url-pattern>/DoLoginServlet</url-pattern>
 </servlet-mapping>
 
 </web-app>

@@ -25,6 +25,9 @@
 <ul>
 	<li><a href="/j2eeTest/HelloServlet">显示一个纯粹的servlet页面</a></li>
 	<li><a href="./servletjsp/login.jsp">servlet与jsp实现登录</a></li>
+	<li><a href="./servletjsp/doGet.jsp">servlet与get方式请求</a></li>
+	<li><a href="./servletjsp/doPost.jsp">servlet与post方式请求</a></li>
+	<li><a href="./servletjsp/doLogin.jsp">servlet重定向与转发</a></li>
 </ul>
 
 </body>
