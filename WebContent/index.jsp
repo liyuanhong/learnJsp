@@ -28,6 +28,7 @@
 	<li><a href="./servletjsp/doGet.jsp">servlet与get方式请求</a></li>
 	<li><a href="./servletjsp/doPost.jsp">servlet与post方式请求</a></li>
 	<li><a href="./servletjsp/doLogin.jsp">servlet重定向与转发</a></li>
+	<li><a href="./servletjsp/checkLogin.jsp">servlet数据库操作</a></li>
 </ul>
 
 </body>

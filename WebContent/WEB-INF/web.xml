@@ -24,6 +24,10 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
 	<servlet-name>DoLoginServlet</servlet-name>
 	<servlet-class>com.jsp.serverlet.DoLoginServlet</servlet-class>
 </servlet>
+<servlet>
+	<servlet-name>CheckLoginServlet</servlet-name>
+	<servlet-class>com.jsp.serverlet.CheckLoginServlet</servlet-class>
+</servlet>
 
 
 
@@ -47,6 +51,10 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
 <servlet-mapping>
 	<servlet-name>DoLoginServlet</servlet-name>
 	<url-pattern>/DoLoginServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>CheckLoginServlet</servlet-name>
+	<url-pattern>/CheckLoginServlet</url-pattern>
 </servlet-mapping>
 
 </web-app>
