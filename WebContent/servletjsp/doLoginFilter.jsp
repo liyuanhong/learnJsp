@@ -7,11 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="../DoLoginServlet" method="post">
+<h3>用户名输入中文</h3>
+	<form action="../LoginServlet">
 		uname:<input type="text "name="uname"><br>
 		passw:<input type="password" name="upsd"><br>
 		<input type="submit" value="提交">
 		<input type="reset" value="重置">
 	</form>
+</body>
 </body>
 </html>

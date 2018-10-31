@@ -30,6 +30,10 @@
 	<li><a href="./servletjsp/doLogin.jsp">servlet重定向与转发</a></li>
 	<li><a href="./servletjsp/checkLogin.jsp">servlet数据库操作</a></li>
 </ul>
+<h3>jsp的filter处理中间逻辑</h3>
+<ul>
+	<li><a href="./servletjsp/doLoginFilter.jsp">filter改变编码的实验</a></li>
+</ul>
 
 </body>
 </html>

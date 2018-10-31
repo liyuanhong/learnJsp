@@ -28,6 +28,22 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
 	<servlet-name>CheckLoginServlet</servlet-name>
 	<servlet-class>com.jsp.serverlet.CheckLoginServlet</servlet-class>
 </servlet>
+<filter>
+	<filter-name>FilterOne</filter-name>
+	<filter-class>com.jsp.filter.FilterOne</filter-class>
+	<init-param>
+		<param-name>param</param-name>
+		<param-value>param value hello world</param-value>
+	</init-param>
+</filter>
+<filter>
+	<filter-name>FilterTwo</filter-name>
+	<filter-class>com.jsp.filter.FilterTwo</filter-class>
+</filter>
+<filter>
+	<filter-name>FilterCoding</filter-name>
+	<filter-class>com.jsp.filter.FilterCoding</filter-class>
+</filter>
 
 
 
@@ -56,5 +72,20 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
 	<servlet-name>CheckLoginServlet</servlet-name>
 	<url-pattern>/CheckLoginServlet</url-pattern>
 </servlet-mapping>
-
+<filter-mapping>
+	<filter-name>FilterOne</filter-name>
+	<url-pattern>/*</url-pattern>   <!-- 设置过滤的url，这里对所有的url进行过滤 -->
+</filter-mapping>
+<filter-mapping>
+	<filter-name>FilterTwo</filter-name>
+	<url-pattern>/*</url-pattern>   
+</filter-mapping>
+<filter-mapping>
+	<filter-name>FilterCoding</filter-name>
+	<url-pattern>/*</url-pattern>   
+</filter-mapping>
 </web-app>
+
+
+
+
